@@ -1,0 +1,65 @@
+.statisticsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.popularPizzas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 7px;
+  margin-bottom: 10px;
+
+  border: 1px solid #f4ff56;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px -6px #f4ff56, 0px 0px 14px -4px #c700da;
+}
+
+.popularTitle {
+  font-size: 20px;
+  color: #c600d8;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+  margin-bottom: 10px;
+}
+
+.popularList {
+}
+
+.popularPizza {
+  margin-bottom: 5px;
+}
+
+.usedIngredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 7px;
+  border: 1px solid #f4ff56;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px -6px #f4ff56, 0px 0px 14px -4px #c700da;
+}
+
+.ingredientsTitle {
+  font-size: 20px;
+  color: #c600d8;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+  margin-bottom: 10px;
+}
+
+.ingredientsList {
+}
+
+.ingredientsItem {
+  margin-bottom: 5px;
+}

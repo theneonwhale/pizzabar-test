@@ -1,0 +1,82 @@
+.pizzaItem {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 7px;
+  border: 1px solid #f4ff56;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px -6px #f4ff56, 0px 0px 14px -4px #c700da;
+  transform: scale(1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pizzaItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.pizzaItem:hover,
+.pizzaItem:focus {
+  transform: scale(1.03);
+}
+
+.pizzaDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizzaImage {
+  margin-bottom: 8px;
+}
+
+.pizzaTitle {
+  font-size: 15px;
+  color: #c600d8;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+  margin-bottom: 8px;
+}
+
+.pizzaPrice {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.pizzaCost {
+  font-weight: 500;
+}
+
+.pizzaIngredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizzaIngredientsTitle {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pizzaIngredientsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 130px;
+  margin-bottom: 8px;
+}
+
+.pizzaIngredient {
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.pizzaIngredient:not(:last-child) {
+  margin-right: 4px;
+}

@@ -1,0 +1,28 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.categoryItem {
+  margin-right: 10px;
+  border: 1px solid #f4ff56;
+  background-color: #f5ff6b;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.categoryItem:hover,
+.categoryItem:focus {
+  background-color: #c700da;
+  color: #ffffff;
+}
+
+.activeCategory {
+  color: #ffffff;
+  background-color: #c700da;
+}

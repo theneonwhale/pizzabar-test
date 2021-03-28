@@ -1,0 +1,101 @@
+{
+  "pizzas": {
+    "cap": {
+      "id": "01",
+      "name": "cap",
+      "category": 0,
+      "price": 100,
+      "imgUrl": "https://www.svgrepo.com/show/154207/pizza.svg",
+      "ingredients": {
+        "dough": 1,
+        "tomato sauce": 1,
+        "onion": 2,
+        "sausage": 2,
+        "mashroom": 3,
+        "cheese": 1
+      },
+      "rating": 4
+    },
+    "onions": {
+      "id": "02",
+      "name": "onions",
+      "category": 0,
+      "price": 150,
+      "imgUrl": "https://www.svgrepo.com/show/154207/pizza.svg",
+      "ingredients": {
+        "dough": 1,
+        "tomato sauce": 1,
+        "onion": 2,
+        "meat": 1,
+        "cheese": 1
+      },
+      "rating": 3
+    },
+    "king one": {
+      "id": "03",
+      "name": "king one",
+      "category": 2,
+      "price": 200,
+      "imgUrl": "https://www.svgrepo.com/show/154207/pizza.svg",
+      "ingredients": {
+        "dough": 1,
+        "tomato sauce": 1,
+        "onion": 2,
+        "mayo": 1,
+        "mashroom": 3,
+        "tomato": 2,
+        "cheese": 3,
+        "dill": 2,
+        "parsley": 2
+      },
+      "rating": 1
+    },
+    "gavay": {
+      "id": "04",
+      "name": "gavay",
+      "category": 2,
+      "price": 150,
+      "imgUrl": "https://www.svgrepo.com/show/154207/pizza.svg",
+      "ingredients": {
+        "dough": 1,
+        "tomato sauce": 1,
+        "onion": 2,
+        "ananas": 1,
+        "cheese": 2
+      },
+      "rating": 2
+    },
+    "tonno": {
+      "id": "05",
+      "name": "tonno",
+      "category": 1,
+      "price": 100,
+      "imgUrl": "https://www.svgrepo.com/show/154207/pizza.svg",
+      "ingredients": {
+        "dough": 1,
+        "tomato sauce": 1,
+        "tuna": 2,
+        "kappers": 1,
+        "cheese": 1
+      },
+      "rating": 2
+    },
+    "vegetarian": {
+      "id": "06",
+      "name": "vegetarian",
+      "category": 2,
+      "price": 200,
+      "imgUrl": "https://www.svgrepo.com/show/154207/pizza.svg",
+      "ingredients": {
+        "dough": 1,
+        "tomato sauce": 1,
+        "tomato": 2,
+        "kappers": 1,
+        "cucumber": 2,
+        "onion": 2,
+        "cheese": 1
+      },
+      "rating": 5
+    }
+  }
+}

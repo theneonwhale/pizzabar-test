@@ -1,0 +1,25 @@
+.button {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+  /* width: 70px; */
+  /* height: 30px; */
+  border-radius: 5px;
+  background-color: #f5ff6b;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #f4ff56;
+  box-shadow: 0px 0px 14px -6px #000000;
+  transform: scale(1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #c700da;
+  color: #ffffff;
+  box-shadow: 0px 0px 14px -6px #f4ff56, 0px 0px 14px -4px #c700da;
+}

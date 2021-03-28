@@ -1,0 +1,91 @@
+.ordersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ordersInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.ordersTitle {
+  margin-bottom: 10px;
+  color: #c600d8;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: #ffffff 0px 0px 5px, #ffffff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.statisticsTitle {
+  margin-bottom: 10px;
+  color: #c600d8;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: #ffffff 0px 0px 5px, #ffffff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+}
+
+.ordersCredits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #000000;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+}
+
+.ordersCreditItem {
+  margin-bottom: 5px;
+}
+
+.ordersCreditNumber {
+  font-weight: 500;
+}
+
+.ordersBack {
+  text-decoration: none;
+  padding: 3px;
+  color: #000000;
+  background-color: #f5ff6b;
+  border: 1px solid #f4ff56;
+  border-radius: 10px;
+  font-size: 14px;
+  box-shadow: 0px 0px 14px -6px #000000;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ordersBack:hover,
+.ordersBack:focus {
+  background-color: #c700da;
+  color: #ffffff;
+  box-shadow: 0px 0px 14px -6px #f4ff56, 0px 0px 14px -4px #c700da;
+}
+
+.ordersButton {
+  margin-bottom: 8px;
+}

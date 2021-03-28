@@ -1,0 +1,15 @@
+.pizzasSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizzasTitle {
+  color: #c600d8;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+}

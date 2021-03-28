@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1140px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartButton {
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  color: #c600d8;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #ffffff 0px 0px 15px,
+    #f4ff56 0px 0px 20px, #f4ff56 0px 0px 30px, #f4ff56 0px 0px 40px,
+    #f4ff56 0px 0px 50px, #f4ff56 0px 0px 75px;
+}
+
+.logoContainer {
+  margin-right: 500px;
+}
+
+.logoImage {
+  z-index: index 99;
+}

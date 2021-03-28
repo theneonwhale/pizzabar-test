@@ -1,0 +1,30 @@
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 7px;
+  border: 1px solid #f4ff56;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px -6px #f4ff56, 0px 0px 14px -4px #c700da;
+}
+
+.pizzaName {
+  margin-right: 5px;
+  width: 100px;
+  font-weight: 500;
+}
+
+.pizzaCount {
+  margin-right: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.pizzaTotalPrice {
+  margin-right: 5px;
+  width: 100px;
+  text-align: center;
+}
